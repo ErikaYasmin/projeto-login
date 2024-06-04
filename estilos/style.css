@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*PALETA DE CORES
-    Azul: #6E93F0
+    Azul: #4573ED
     Roxo: #736EF0*/
 
 * {
@@ -34,6 +34,7 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.311);
+    transition: width .3s, height .3s;
 }
 
 section#login > div#imagem {
